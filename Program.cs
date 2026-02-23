@@ -15,17 +15,15 @@ for (int i = 0; i < n; i++)
 }
 
 // --- INICIO DE LÓGICA DEL ALUMNO ——-
-int mayor = numeros[0]; |/ Suponemos que el
-primer número es el mayor
-int indice = 1; |/ Empezamos a comparar desde
-el segundo
-while (indice ‹ numeros. Length) // Mientras no Ileguemos al final
-if (numeros[indice] > mayor) |/ Si
-encontramos uno más grande
-mayor = numeros[indice]; |/ Lo
-guardamos
-｝
-indicett; |/ Pasamos al siguiente
+int mayor = numeros[0]; 
+int i = 1; 
+while ( i < n) 
+{
+    if ( numeros [i] > mayor)
+    {
+        mayor = numeros [i] ; 
+    }
+    i++;
 }
-Console WriteLine(mayor); // Mostramos el resultado
-11 --- FIN DE LÓGICA DEL ALUMNO —
+console.WriteLine(Mayor);
+// -- fin de mi logica del alumno 
