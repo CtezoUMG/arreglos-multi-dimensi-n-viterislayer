@@ -14,13 +14,12 @@ for (int i = 0; i < n; i++)
     numeros[i] = int.Parse(entrada[i]);
 }
 
-// --- INICIO DE LÓGICA DEL ALUMNO ——-
-int mayor = numeros[0]; 
-for ( int i = 1 ; i < n; i++) 
-    if ( numeros [i] > maximo ) 
-    { 
-        maximo = numeros [i] ; 
-    }
+// --- INICIO DE LÓGICA DEL ALUMNO 
+int maximo = numeros [0]; 
+for (int i = 1; i < n; i++)
+    if (numeros [i] > maximo)
+        maximo = numeros [i]; 
 }
-console.WriteLine(Maximo) ; 
-// Fin de logica del alumno 
+}
+Console.WriteLine(maximo);
+//FIN DE LOGICA DE EL ALUMNO 
