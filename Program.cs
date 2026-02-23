@@ -14,14 +14,18 @@ for (int i = 0; i < n; i++)
     numeros[i] = int.Parse(entrada[i]);
 }
 
-// --- INICIO DE LÓGICA DEL ALUMNO ---
-// Instrucción: El alumno debe encontrar el valor máximo del arreglo 'numeros'
-int maximo = numeros[0]; 
-
-// TODO: Implementar el algoritmo de búsqueda aquí
-
-
-// --- FIN DE LÓGICA DEL ALUMNO ---
-
-// 2. Salida: Lo que el Autograding comparará
-Console.WriteLine(maximo);
+// --- INICIO DE LÓGICA DEL ALUMNO ——-
+int mayor = numeros[0]; |/ Suponemos que el
+primer número es el mayor
+int indice = 1; |/ Empezamos a comparar desde
+el segundo
+while (indice ‹ numeros. Length) // Mientras no Ileguemos al final
+if (numeros[indice] > mayor) |/ Si
+encontramos uno más grande
+mayor = numeros[indice]; |/ Lo
+guardamos
+｝
+indicett; |/ Pasamos al siguiente
+}
+Console WriteLine(mayor); // Mostramos el resultado
+11 --- FIN DE LÓGICA DEL ALUMNO —
