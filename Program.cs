@@ -25,6 +25,5 @@ for (int i = 1; i < n; i++) // Recorremos desde el segundo
 }
 Console.WriteLine(maximo); // Imprimimos el resultado 
 // --- Fin de logica del alumno ---
-  }
-}
+  
 
