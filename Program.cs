@@ -15,12 +15,14 @@ for (int i = 0; i < n; i++)
 }
 
 // --- INICIO DE LÓGICA DEL ALUMNO 
-int maximo = numeros [0];
-for (int i = 1; i < n; i++)
+int maximo = numeros [0]; // Epezamos con el primer numero 
+for ( i = 1; i < numeros.Length; i++) // Recorremos desde el segundo 
 {
-    if (numeros[i] > maximo)
-        maximo = numeros[i];
-  }
+    if (numeros[i] > maximo) // Si encontramos uno mayor 
+    {
+        maximo = numeros [i]; // Lo Guardamos 
+    }
 }
-Console.WriteLine(maximo);
-// ---FIN DE LOGICA DE ALUMNO---
+Console.WriteLine(maximo); // Imprimimos el resultado 
+// ---Fin de logica del alumno 
+
