@@ -24,5 +24,7 @@ for ( i = 1; i < numeros.Length; i++) // Recorremos desde el segundo
     }
 }
 Console.WriteLine(maximo); // Imprimimos el resultado 
-// ---Fin de logica del alumno 
+// --- Fin de logica del alumno ---
+  }
+}
 
