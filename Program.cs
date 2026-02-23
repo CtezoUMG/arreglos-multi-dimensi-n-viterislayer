@@ -16,14 +16,11 @@ for (int i = 0; i < n; i++)
 
 // --- INICIO DE LÓGICA DEL ALUMNO ——-
 int mayor = numeros[0]; 
-int i = 1; 
-while ( i < n) 
-{
-    if ( numeros [i] > mayor)
-    {
-        mayor = numeros [i] ; 
+for ( int i = 1 ; i < n; i++) 
+    if ( numeros [i] > maximo ) 
+    { 
+        maximo = numeros [i] ; 
     }
-    i++;
 }
-console.WriteLine(Mayor);
-// -- fin de mi logica del alumno 
+console.WriteLine(Maximo) ; 
+// Fin de logica del alumno 
