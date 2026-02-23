@@ -16,7 +16,7 @@ for (int i = 0; i < n; i++)
 
 // --- INICIO DE LÓGICA DEL ALUMNO 
 int maximo = numeros [0]; // Epezamos con el primer numero 
-for ( i = 1; i < numeros.Length; i++) // Recorremos desde el segundo 
+for (int i = 1; i < n; i++) // Recorremos desde el segundo 
 {
     if (numeros[i] > maximo) // Si encontramos uno mayor 
     {
